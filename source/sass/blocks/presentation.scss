@@ -1,0 +1,20 @@
+.presentation__video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+@media (min-width: $tablet-width) {
+  .presentation {
+    padding: 0 $tablet-padding;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .presentation {
+    padding: 0 $desktop-padding;
+  }
+}

@@ -1,0 +1,52 @@
+//===== common
+@import "variables";
+@import "mixins";
+@import "global/*";
+
+//===== body
+@import "blocks/page-body";
+@import "blocks/btn";
+@import "blocks/range";
+@import "blocks/overlay";
+@import "blocks/popup";
+//===== header
+@import "blocks/page-header";
+@import "blocks/menu-btn";
+@import "blocks/page-logo";
+@import "blocks/main-nav";
+//===== main
+@import "blocks/page-main";
+@import "blocks/intro";
+@import "blocks/section";
+//===== form
+@import "blocks/form-selector";
+@import "blocks/form-field";
+@import "blocks/form";
+//===== footer
+@import "blocks/page-footer";
+@import "blocks/hashtag";
+@import "blocks/socials";
+@import "blocks/copyright";
+
+//===== index.html
+@import "blocks/features";
+@import "blocks/feature";
+@import "blocks/go-to-hotels";
+@import "blocks/sedona-location";
+
+//===== gallery.html
+@import "blocks/gallery";
+@import "blocks/snapshot";
+@import "blocks/vote";
+@import "blocks/presentation";
+
+//===== hotels.html
+@import "blocks/search-form";
+@import "blocks/hotels";
+@import "blocks/hotel-card";
+@import "blocks/sort-pane";
+@import "blocks/sort-type";
+@import "blocks/sort-order";
+
+//===== feedback.html
+@import "blocks/feedback-form";

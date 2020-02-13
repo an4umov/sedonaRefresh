@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  // improve font display on MAC
+  -webkit-font-smoothing: antialiased;
+
+  // disabling font enlargement in landscape mode on iOS
+  -webkit-text-size-adjust: 100%;
+
+  // Turn off element highlighting on tap on iOS
+  -webkit-tap-highlight-color: transparent;
+}
+
+main {
+  // IE fix
+  display: block;
+}
+
+input::placeholder {
+  // Firefox fix
+  opacity: 1;
+}
+
+// additional fix font display on Mac for Firefox
+@-moz-document url-prefix() {
+  body {
+    font-weight: 200;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
